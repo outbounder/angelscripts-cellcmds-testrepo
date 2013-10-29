@@ -4,12 +4,12 @@
   },
   "Shellreactor": {
     "source": "node_modules/organic-shellreactor",
-    "reactOn": "command"
+    "reactions": "scripts",
+    "reactOn": "cmd"
   },
-  "CellCommands": {
-    "source": "node_modules/organic-shellreactor-cellcmds"
-  },
-  "SourceUpload": {
-    "source": "scripts/upload"
+  "Shellreactor2": {
+    "source": "node_modules/organic-shellreactor",
+    "reactions": "organic-shellreactor-cellcmds",
+    "reactOn": "cmd"
   }
 }

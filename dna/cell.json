@@ -1,18 +1,12 @@
 {
   "staging": {
-    "commandWrapper": "ssh node@176.58.101.229",
+    "cwd": "~/staging",
+    "target": "app.js",
+    "source": "",
+    "branch": "",
     "remote": "node@176.58.101.229",
-    "cwd": "~/testCell",
-    "main": "testCell.js",
-    "source": "https://github.com/outbounder/organic-angel-testcell.git",
-    "branch": "master"
-  },
-  "demoversion": {
-    "commandWrapper": "ssh node@176.58.101.229",
-    "remote": "node@176.58.101.229",
-    "cwd": "~/testCell-demo",
-    "main": "testCell-demo.js",
-    "source": "https://github.com/outbounder/organic-angel-testcell.git",
-    "branch": "demo"
+    "rootRemote": "root@123.123.123.123",
+    "nodeVersion": "v0.10.18",
+    "nodeSource": "source ~/.nvm/nvm.sh; nvm use v0.10.18"
   }
 }
