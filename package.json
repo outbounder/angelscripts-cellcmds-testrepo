@@ -1,0 +1,14 @@
+{
+  "name": "organic-angel-testcell",
+  "version": "0.0.1",
+  "main": "testCell.js",
+
+  "dependencies": {
+  },
+  "devDependencies": {
+    "organic-angel": "https://github.com/outbounder/organic-angel/archive/v0.2.tar.gz",
+    "organic-tissue": "https://github.com/outbounder/organic-tissue/archive/master.tar.gz",
+    "organic-shellreactor": "https://github.com/outbounder/organic-shellreactor/archive/master.tar.gz",
+    "organic-shellreactor-cellcmds": "https://github.com/outbounder/organic-shellreactor-cellcmds/archive/master.tar.gz"
+  }
+}

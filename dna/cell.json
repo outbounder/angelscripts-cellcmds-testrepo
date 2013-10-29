@@ -1,0 +1,18 @@
+{
+  "staging": {
+    "commandWrapper": "ssh node@176.58.101.229",
+    "remote": "node@176.58.101.229",
+    "cwd": "~/testCell",
+    "main": "testCell.js",
+    "source": "https://github.com/outbounder/organic-angel-testcell.git",
+    "branch": "master"
+  },
+  "demoversion": {
+    "commandWrapper": "ssh node@176.58.101.229",
+    "remote": "node@176.58.101.229",
+    "cwd": "~/testCell-demo",
+    "main": "testCell-demo.js",
+    "source": "https://github.com/outbounder/organic-angel-testcell.git",
+    "branch": "demo"
+  }
+}

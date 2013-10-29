@@ -1,0 +1,15 @@
+{
+  "Tissue": {
+    "source": "node_modules/organic-tissue"
+  },
+  "Shellreactor": {
+    "source": "node_modules/organic-shellreactor",
+    "reactOn": "command"
+  },
+  "CellCommands": {
+    "source": "node_modules/organic-shellreactor-cellcmds"
+  },
+  "SourceUpload": {
+    "source": "scripts/upload"
+  }
+}
