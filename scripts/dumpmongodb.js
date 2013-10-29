@@ -5,7 +5,7 @@ module.exports = function(c, next){
     "tar -zcvf mongodump-"+timestamp+".tar.gz ~/tmp/mongodump",
     "rm -rf ~/tmp/mongodump"
   ], function(r, next){
-    if(r.code)
+    if(r.code == 0)
       next([
         "scp "+c.remote+":~/mongodump-"+timestamp+".tar.gz ~/tmp/mongodump.tar.gz",
         "mkdip -p ~/tmp/mongodump",

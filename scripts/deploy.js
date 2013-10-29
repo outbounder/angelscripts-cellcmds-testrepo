@@ -1,6 +1,6 @@
 module.exports = function(c, next){
   next("Status", function(r, next){
-    if(r.output.pid) {
+    if(r.code == 0) {
       next("Upgrade")
     } else
       next("Setup", function(r, next){
