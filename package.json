@@ -1,13 +1,9 @@
 {
-  "name": "organic-angel-testcell",
+  "name": "organic-angel-testrepo",
   "version": "0.0.1",
   "main": "testCell.js",
 
   "dependencies": {
-  },
-  "devDependencies": {
-    "organic-angel": "0.2.0",
-    "organic-tissue": "0.0.1",
-    "organic-shellreactor": "0.0.1"
+    "organic-angel": "0.2.0"
   }
 }
