@@ -4,6 +4,6 @@
   "main": "testCell.js",
 
   "dependencies": {
-    "organic-angel": "0.2.0"
+    "organic-angel": "https://github.com/outbounder/organic-angel/archive/v0.2.tar.gz"
   }
 }
