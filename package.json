@@ -1,8 +1,7 @@
 {
   "name": "organic-angel-testrepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "app.js",
-
   "dependencies": {
     "organic-angel": "https://github.com/outbounder/organic-angel/archive/master.tar.gz",
     "angelscripts": "https://github.com/outbounder/angelscripts/archive/master.tar.gz",
