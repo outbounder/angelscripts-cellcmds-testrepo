@@ -1,6 +1,7 @@
 {
   "scripts": [
     "angelscripts-nodeapps",
-    "angelscripts-cellcmds"
+    "angelscripts-cellcmds",
+    "angelscripts"
   ]
 }
