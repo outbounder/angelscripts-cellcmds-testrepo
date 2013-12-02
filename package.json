@@ -1,6 +1,6 @@
 {
   "name": "organic-angel-testrepo",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "app.js",
   "dependencies": {
     "organic-angel": "https://github.com/outbounder/organic-angel/archive/master.tar.gz",
