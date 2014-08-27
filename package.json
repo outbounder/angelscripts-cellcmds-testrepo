@@ -4,7 +4,7 @@
   "main": "app.js",
   "dependencies": {
     "organic-angel": "https://github.com/outbounder/organic-angel/archive/master.tar.gz",
-    "angelscripts": "https://github.com/outbounder/angelscripts/archive/master.tar.gz",
+    "angelscripts-help": "https://github.com/outbounder/angelscripts-help/archive/master.tar.gz",
     "angelscripts-nodeapps": "https://github.com/outbounder/angelscripts-nodeapps/archive/master.tar.gz",
     "angelscripts-cellcmds": "https://github.com/outbounder/angelscripts-cellcmds/archive/master.tar.gz"
   }
